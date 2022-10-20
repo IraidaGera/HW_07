@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    color: #070707;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+#header{
+    height: 67px;
+    line-height: 79px;
+}
+
+#header .container{
+    border-bottom: 1px solid #828282;
+}
+
+.main-menu ul{
+    list-style: none;
+    text-align: center;
+}
+.main-menu ul li{
+    display: inline-block;
+    margin: 0 19px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: #828282;
+}
+
+.main-menu ul li a:hover {
+    color: #070707;
+}
+.header1 {
+    font-weight: 700px;
+    font-size: 50px;
+    line-height: 120px;
+    margin-bottom: 14px;
+}
+
+
+.container{
+    width: 90%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+.first-screen{
+    margin-bottom: 100px;
+}
+
+.first-screen h4 {
+    margin-bottom: 25px;
+}
+.header2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 107px;
+    margin-bottom: 53px;
+}
+.about-me{
+    margin-top: 107px;
+    margin-bottom: 53px;
+
+}
+.bg-grey{
+    background-color: #e0e0e0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    text-align-last: center;
+    margin-top: 27px;
+}
+
+.last{
+    margin-bottom: 100px;
+}
+.skills{
+    margin-top: 210px;
+    margin-bottom: 20px;
+}
+.text-skills{
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+
+.header3{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+.img-skills{
+    width: 78px;
+    height: 78px;
+    margin-bottom: 10px;
+}
+#skills ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    align-self: center;
+    /* align-items: center; */
+}
+
+.p{
+    margin-bottom: 50px;
+}
+/* #skills img {
+    width: 78px;
+    height: 78px;
+    margin-bottom: 57px;
+    display: inline-block;
+} */
+
+
+.portfolio{
+    background-color: gainsboro;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Fashion-Store{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.back{
+    width: 100%;
+    background-color: lightgrey;
+}
+
+#footer{
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    text-align: center;
+}
+
+.social {
+    list-style: none;
+    display: inline;
+    margin: 0 19px;
+}
