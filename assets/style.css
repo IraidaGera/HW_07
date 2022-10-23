@@ -132,7 +132,7 @@ section.skills{
     display: inline-block;
     font-size: 18px;
     margin-right: 96,5px;
-    width: 189,5px;
+    width: 189.5px;
 }
 
 
@@ -179,10 +179,10 @@ a{
     cursor: pointer;
     border-radius: 22px;
     padding: 0 16px;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease ;
 }
 .btn:hover{
-    background-color: #fff
+    background-color: #fff;
     color:#070707;
 }
 
