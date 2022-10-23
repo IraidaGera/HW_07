@@ -8,6 +8,18 @@ html, body{
     width: 100%;
     height: 100%;
 }
+ul, ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+a{
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
 
 body {
     background-color: #fff;
@@ -16,9 +28,14 @@ body {
     font-size: 19px;
     line-height: 25px;
 }
+.container{
+    width: 90%;
+    max-width: 970px;
+    margin: 0 auto;
+}
 
 #header{
-    height: 82px;
+    height: 0px;
     line-height: 79px;
 }
 
@@ -44,69 +61,71 @@ body {
 }
 .header1 {
     font-weight: 700px;
-    font-size: 48px;
-    line-height: 88px;
-    margin-bottom: 32px;
-}
-.container{
-    width: 90%;
-    max-width: 970px;
-    margin: 0 auto;
+    font-size: 50px;
+    line-height: 57px;
 }
 
-.first-screen{
-    margin-bottom: 100px;
+.portret{
+    margin-top: 46px;
 }
-
-.first-screen h4 {
-    margin-bottom: 25px;
+section{
+    padding: 100px 0;
 }
 .header2 {
     font-weight: 700;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 53px;
+    margin-bottom: 55px;
 }
-.about-me{
-    margin-top: 105px;
-    margin-bottom: 53px;
 
-}
 .bg-grey{
     background-color: #e0e0e0;
-    margin-top: 100px;
+    margin-top: -56px;
     margin-bottom: 100px;
-}
-.p{
-    margin-bottom: 19px;
-}
-p{
-    font-weight: 400;
-    font-size: 19px;
-    text-align: center;
-    text-align-last: center;
-    margin-top: 30px;
 }
 
-.last{
-    margin-bottom: 100px;
+section.bg-grey{
+    padding: 66px 0;
+}
+
+.content p{
+    font-size: 19px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+section.skills{
+    padding: 16px 0;
 }
 .skills{
-    margin-top: 210px;
+    display: flex;
+    justify-content: stretch;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
-.text-skills{
-    font-weight: 700;
-    font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 50px;
+.skills .header2{
+    margin-bottom: 27px;
 }
 
+.parafraf{
+    text-align: center;
+    margin-bottom: 50px;
+}
 .img-skills{
     width: 78px;
     height: 78px;
     margin-bottom: 10px;
 }
+.text-skills{
+   
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 52px;
+}
+
+
 #skills ul li{
     list-style: none;
     text-align: center;
@@ -117,21 +136,20 @@ p{
 .portfolio{
     background-color: gainsboro;
     text-align: center;
+    margin-top: 211px;
     margin-bottom: 100px;
 }
-.portfolio img {
-    margin-bottom: 50px;
+
+section.portfolio.bg-grey{
+    padding: 0;
 }
-.portfolio a {
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
+
 .Fashion-Store{
-    margin-top: 84px;
-    margin-bottom: 100px;
+    margin-bottom: 39px;
 }
-
-
+a{
+    margin-bottom: 30px;
+}
 .back{
     width: 100%;
     background-color: lightgrey;
