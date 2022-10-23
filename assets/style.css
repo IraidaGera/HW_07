@@ -130,8 +130,11 @@ section.skills{
     list-style: none;
     text-align: center;
     display: inline-block;
-    align-self: center;
+    font-size: 18px;
+    margin-right: 96,5px;
+    width: 189,5px;
 }
+
 
 .portfolio{
     background-color: gainsboro;
@@ -168,6 +171,7 @@ a{
     line-height: 44px; 
     background-color: #070707;
     color: white;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 10%;
