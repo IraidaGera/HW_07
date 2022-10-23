@@ -161,15 +161,33 @@ a{
 }
 
 
-button {
-    text-align: center;
-}
-
-.social {
-    list-style: none;
-    text-align: center;
+.btn {
     display: inline-block;
-    align-self: center;
-    margin: 0 19px;
+    align: center;
+    height: 44px;
+    line-height: 44px; 
+    background-color: #070707;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 10%;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 22px;
+    padding: 0 16px;
+    transition: all 0.2s ease;
+}
+.btn:hover{
+    background-color: #fff
+    color:#070707;
 }
 
+.social .container {
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social .container .text-skills{
+    font-weight: 400;
+}
