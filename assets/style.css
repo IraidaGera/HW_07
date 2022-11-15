@@ -14,15 +14,13 @@ ul, ol{
 img{
     vertical-align: top;
 }
-a{
-    text-decoration: underline;
-}
+
 a:hover{
     text-decoration: none;
 }
 
 body {
-    background-color: #fff;
+    /* background-color: #fff; */
     font-family: 'Open Sans', sans-serif;
     color: #070707;
     font-size: 19px;
@@ -35,14 +33,16 @@ body {
 }
 
 #header{
-    height: 0px;
-    line-height: 79px;
+    height: 79px;
 }
 
 #header .container{
     border-bottom: 1px solid #828282;
 }
-
+.main-menu{
+    margin-top: 28px;
+    margin-bottom: 26px;
+}
 .main-menu ul{
     list-style: none;
     text-align: center;
@@ -60,64 +60,84 @@ body {
     color: #070707;
 }
 .header1 {
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 50px;
-    line-height: 57px;
+    line-height: 39px;
 }
 
 .portret{
-    margin-top: 46px;
+    margin-top: 56px;
 }
-section{
-    padding: 100px 0;
-}
+
 .header2 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 36px;
     text-align: center;
-    margin-bottom: 55px;
+    padding-top: 110px;
 }
 
 .bg-grey{
-    background-color: #e0e0e0;
-    margin-top: -56px;
-    margin-bottom: 100px;
-}
-
-section.bg-grey{
-    padding: 66px 0;
+    background-color: #F6F6F6;
+    padding-bottom: 67px;
 }
 
 .content p{
     font-size: 19px;
     line-height: 26px;
     text-align: center;
-    margin-bottom: 26px;
 }
-section.skills{
-    padding: 16px 0;
+.content p:first-child{
+    margin-top: 53px;
+    padding-bottom: 28px;
 }
+.content p:last-child{
+    margin-top: 29px;
+    padding-bottom: 28px;
+}
+
 .skills{
-    display: flex;
-    justify-content: stretch;
-    margin-top: 50px;
+    margin-top: 3px;
     margin-bottom: 20px;
 }
 .skills .header2{
-    margin-bottom: 27px;
+    margin-bottom: 24px;
+    margin-top: 2px;
 }
 
 .parafraf{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 52px;
+    margin-top: 23px;
 }
-.img-skills{
-    width: 78px;
-    height: 78px;
+.programs{
+    padding-bottom: 60px;
+}
+.program_list{
+    float: left;
+    margin-left: 48px;
+    margin-right: 67px;
     margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.08em;
 }
-.text-skills{
-   
+.program_list.last{
+    margin-left: -45px;
+}
+
+.img-skills{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 26px;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+#skills p{
     font-weight: 700;
     font-size: 14px;
     text-align: center;
@@ -129,69 +149,83 @@ section.skills{
 #skills ul li{
     list-style: none;
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 18px;
-    margin-right: 96,5px;
+    margin-right: 96.5px;
     width: 189.5px;
 }
 
-
-.portfolio{
-    background-color: gainsboro;
-    text-align: center;
-    margin-top: 211px;
-    margin-bottom: 100px;
+.img-skills p{
+    padding-bottom: 10px;
 }
-
-section.portfolio.bg-grey{
-    padding: 0;
+.star1 , .star2{
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    padding-top: 58px;
+}
+.portfolio{
+    text-align: center;
+    margin-top: 268px;
+    /* margin-bottom: 100px; */
+}
+.portfolio:last-child{
+    padding-bottom: 100px;
 }
 
 .Fashion-Store{
-    margin-bottom: 39px;
+    padding-top: 56px;
+    padding-bottom: 39px;
 }
-a{
-    margin-bottom: 30px;
+
+.space{
+    margin-top: 15px;
 }
+
 .back{
     width: 100%;
     background-color: lightgrey;
 }
 
-#footer{
-    margin-top: 164px;
-    margin-bottom: 20px;
-}
 
-
-.btn {
-    display: inline-block;
-    align: center;
+.btn{
+    margin: auto;
+    display: block;
     height: 44px;
-    line-height: 44px; 
     background-color: #070707;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 10%;
+    font-size: 20px;
+    line-height: 44px; 
+    letter-spacing: 0.01rem;
     border: 2px solid black;
     cursor: pointer;
     border-radius: 22px;
     padding: 0 16px;
     transition: all 0.2s ease ;
 }
+
 .btn:hover{
     background-color: #fff;
     color:#070707;
 }
-
-.social .container {
-    max-width: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.container.social{
+    padding-top: 33px;
+    padding-bottom: 56px;
+    
 }
-.social .container .text-skills{
+
+.social ul li{
+    /* max-width: 200px; */
+    display: inline-block;
+    margin: 0 20px;
+}
+
+
+.text-skills{
     font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
 }
